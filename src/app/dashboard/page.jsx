@@ -115,7 +115,7 @@ function Dashboard() {
   return (
     <div className="dashboard">
       {/* Stats Cards */}
-      <h1 className="dashboard-heading">Dashboard</h1>
+      <h1 className="dashboard-heading text-black">Dashboard</h1>
       <div className="stats-grid">
         <div className="stat-card stat-card--total">
           <span className="stat-number">{totalTasks}</span>

@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="app-layout">
           <Navbar />
-          <main className="main-content">{children}</main>
+          <main className="main-content bg-white">{children}</main>
         </div>
       </body>
     </html>

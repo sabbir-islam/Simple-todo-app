@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/"
+                href="/alltask"
                 className="sidebar-link"
                 onClick={closeMobile}
                 title={collapsed ? "All Tasks" : ""}
